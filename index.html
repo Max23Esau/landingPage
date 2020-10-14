@@ -3,33 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
-    <title>
-      Frontend Mentor | Huddle landing page with single introductory section
-    </title>
-
-    <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="main.css" />
+    <title>Huddle</title>
   </head>
   <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
+    <header class="header">
+      <img src="/images/logo.svg" alt="icon" />
+    </header>
+    <main class="hero">
+      <figure class="hero__image">
+        <img src="./images/illustration-mockups.svg" alt="" />
+      </figure>
+      <div class="hero__description">
+        <h1 class="hero__description--title">
+          Build The Community <br />
+          Your Fans Will Love
+        </h1>
+        <p class="hero__description--details">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine dicussion.
+        </p>
+        <a href="" class="hero__description--button">Register</a>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="#" class="icon-facebook"></a>
+      <a href="#" class="icon-twitter"></a>
+      <a href="#" class="icon-instagram"></a>
+    </footer>
   </body>
 </html>
